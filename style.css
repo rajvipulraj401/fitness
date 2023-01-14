@@ -1,0 +1,46 @@
+
+
+
+
+
+
+body{
+background-color: lightcyan;
+padding: 0;
+margin: 0;
+border:0;
+}
+
+
+.logo img{
+    margin-top :0 ;
+    padding: 0;
+    border: 0;
+}
+
+.logo h1{
+    text-align: center;
+    font: weight 900; /*here we don't have to specify the 
+     units as they are not required for these */
+     font-size:3.8rem ;
+     text-decoration: underline;
+     padding-left: 100px;
+     
+    font-family: 'Sacramento', cursive;
+}
+
+section a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    /*TExt align only works on block element thats why 
+    i used this .*/
+
+}
+
+nav h3 a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
