@@ -5,22 +5,72 @@ margin: 0;
 border:0;
 }
 
+head{
+  padding: 0;
+  margin: 0;
+  border:0;
+}
+
+
+nav h3{
+
+  padding: 0;   /* YAHA jo anchor tag sab daale the uska bhi default css tha islea usko hataye nahi toh
+                            gap ho rha tha pic me */
+  margin: 0;
+  border:0;
+  text-align: right;
+
+}
+
+
+.headline{
+
+ color: cyan;
+ position: relative;
+ left: 100px;
+ font-size:  5rem;
+ bottom:40px;
+
+}
+
+.logo{
+
+  border: 0;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(images/workout.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .logo img{
-    margin-top :0 ;
+    margin :0 ;
     padding: 0;
     border: 0;
 }
 
 .logo h1{
     text-align: center;
-    font: weight 900; /*here we don't have to specify the 
+    border: 20px;
+    margin: 40px;
+    padding: 60px;
+    font: weight 900; /*here we don't have to specify the
      units as they are not required for these */
-     font-size:3.8rem ;
+
      text-decoration: underline;
      padding-left: 100px;
-     
+
     font-family: 'Sacramento', cursive;
+}
+
+.titleheading  {
+font-size: 3.8rem;
+position: relative;
+left: 160px;
+top: 20px;
+
 }
 
 section a{
@@ -30,7 +80,7 @@ section a{
     font-size: 1.4rem;
     font-weight: 700;
 
-    /*TExt align only works on block element thats why 
+    /*TExt align only works on block element thats why
     i used this .*/
 
 }
